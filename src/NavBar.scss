@@ -1,0 +1,107 @@
+nav {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: #1E1825;
+    .footer-line {
+        height: 2px;
+        background: #FF875C;
+        background: linear-gradient(90deg,rgba(255, 135, 92, 1) 0%, rgba(191, 154, 202, 1) 50%, rgba(150, 197, 176, 1) 100%);
+    }
+    .footer-flex {
+        display: flex;
+        justify-content: space-between;
+        padding: .3rem 1.5rem;
+        a {
+            text-decoration: none;
+            p {
+                color: #BF9ACA;
+                // transition: all .5s;
+            }
+            .my-dashboard {
+                path {
+                    stroke: #BF9ACA;
+                    // transition: all .5s;
+                }
+            }
+        }
+        a.active {
+            p {
+                color: #96C5B0;
+                // transition: all .5s;
+            }
+            .my-icon path {
+                stroke: #96C5B0;
+                // transition: all .5s;
+            }
+            .my-exercise path {
+                fill: #FF875C;
+                // transition: all .5s;
+            }
+            .exercise-para {
+                color: #FF875C;
+                // transition: all .5s;
+            }
+            .my-dashboard {
+                path {
+                    stroke: url(#paint0_linear_3494_213);
+                    // transition: all .5s;
+                }
+            }
+            .dashboard-para {
+                background: -webkit-linear-gradient(0deg,#ff875c, #bf9aca, #96c5c0);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                // transition: all .5s;
+            }
+        }
+        a:hover {
+            p {
+                color: #96C5B0;
+                // transition: all .5s;
+            }
+            .my-icon path {
+                stroke: #96C5B0;
+                // transition: all .5s;
+            }
+            .my-exercise {
+                path {
+                    fill: #FF875C;
+                    // transition: all .5s;
+                }
+            }
+            .exercise-para {
+                color: #FF875C;
+                // transition: all .5s;
+            }
+            .my-dashboard {
+                path {
+                    stroke: url(#paint0_linear_3494_213);
+                    // transition: all .5s;
+                }
+            }
+            .dashboard-para {
+                background: -webkit-linear-gradient(0deg,#ff875c, #bf9aca, #96c5c0);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                // transition: all .5s;
+            }
+        }
+        .footer-btn {
+            color: #BF9ACA;
+            font-weight: 600;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            .footer-img {
+                width: 65px;
+                height: 65px;
+            }
+            p {
+                margin: 0;
+            }
+        }
+    }
+}

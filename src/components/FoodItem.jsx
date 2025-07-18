@@ -9,12 +9,13 @@ export default function FoodItem({
   proteinValue,
   carbValue,
   foodImgPath,
+  className,
 }) {
   const logFood = () => null;
 
   return (
     <div className="log-food">
-      <img src={foodImgPath} alt={foodName} />
+      <img className={className} src={foodImgPath} alt={foodName} />
       <section>
         <h3>{foodName}</h3>
         <p>

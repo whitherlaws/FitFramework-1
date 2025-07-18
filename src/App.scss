@@ -65,6 +65,12 @@ ul {
   padding: 2rem;
 }
 
+/* Main */
+main {
+  padding: 5rem 0;
+}
+
+
 /* Button */
 
 .btn-component {
@@ -84,6 +90,7 @@ ul {
   color: var(--black);
   border: none;
   transition: 1s;
+  cursor: pointer;
 }
 
 .fullw-btn {
@@ -138,7 +145,7 @@ input {
 }
 
 /* Img */
-img {
+.main-img {
   width: 30vw;
   height: auto;
   border-right: 2px white solid;
